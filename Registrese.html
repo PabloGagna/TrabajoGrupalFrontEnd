@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/estilo.css">
+    <title>RomanovWines</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbuton">
+                <i class="fa-solid fa-bars" id="menuhamb"style="font-size: 30px; color: #fbf7f7;"></i>
+            </label>
+            <ul class="list">
+                <li><a href="C:/Users/NOSOTROS/Desktop/Programacion/CursoCodoACodo/TrabajoGrupal/FrontEnd/index.html">Home</a></li>
+                <li><a href="*Nuestros Vinos">Nuestros Vinos</a></li>
+                <li><a href="C:/Users/NOSOTROS/Desktop/Programacion/CursoCodoACodo/TrabajoGrupal/FrontEnd/Registrese.html">Registrese</a></li>
+                <li><a href="C:/Users/NOSOTROS/Desktop/Programacion/CursoCodoACodo/TrabajoGrupal/FrontEnd/index.html#contactenos">Contactenos</a></li>
+            </ul>
+        </nav>
+        
+        <div class="login"> <a href="*Log in" id="login">Log In</a> </div>
+    </header>
+    
+    <div class="pagina">
+        <div class="imagenfondo">
+            <img src="C:/Users/NOSOTROS/Desktop/Programacion/CursoCodoACodo/TrabajoGrupal/FrontEnd/img/fondoRegistro.jpg" alt="">
+        </div>
+        <div class="formRegistro">
+        
+            <form action="" name="registro" onsubmit="return validateForm()"   autocomplete="on">
+                <fieldset>
+                    <legend>Ingrese sus datos</legend>
+                    <label for="nombre" id="labelreg"> Nombre </label><br>
+                    <input type="text" name="nombre" class="inputreg" ><br>
+                    <label for="apellido" id="labelreg">Apellido</label><br>
+                    <input type="text" name="apellido" class="inputreg" ><br>
+                    <label for="nacimiento" id="labelreg">Fecha de nacimiento</label>
+                    <label for="genero" id="labelreg">Seleccione su genero</label><br>
+                    <input type="date" name="nacimiento" class="inputreg" id="bdate" >
+                    <select name="genero" id="genero">
+                        <option value="masc">Masculino</option>
+                        <option value="fem">Femenino</option>
+                        <option value="nobin">No binario</option>
+                    </select><br>
+                    <label for="mail" id="labelreg"> E-mail</label><br>
+                    <input type="email" name="mail" class="inputreg" ><br>
+                    <label for="pass" id="labelreg">Password</label><br>
+                    <input type="password" name="pass" class="inputreg" ><br>
+                    <label for="passconfirm" id="labelreg">Confirme su password</label><br>
+                    <input type="password" name="passconfirm" class="inputreg" ><br>
+                    <div class="aceptbox">    
+                        <input type="radio" id="suscribe" name="suscribe" value="noticias">
+                        <label for="suscribe" id="aceptarcond"><b>Acepto recibir noticias y promociones</b></label> 
+                        <input type="radio" id="nosuscribe" name="suscribe" value="nosuscribe">
+                        <label for="nosuscribe" id="noacepta"><b> No quiero recibir información</b> </label>
+                    </div>
+                        <div class="botonesform">                
+                            <input type="submit" value="Enviar" id="enviarreg">
+                            <input type="reset" value="Borrar" id="borrar">
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>
+    </div> 
+    <script src="/JavaScript/formulario.js"></script>   
+</body>
+</html>
