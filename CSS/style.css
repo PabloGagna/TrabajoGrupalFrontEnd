@@ -84,10 +84,10 @@ a.txt:hover{
 
 
 .copyright p{
-	  font-family: "Cormorant Garamond", serif;
-	  text-transform: uppercase;
-	  text-align: center;
-	  color: #E4AC5C;
+	font-family: "Cormorant Garamond", serif;
+	text-transform: uppercase;
+	text-align: center;
+    color: #E4AC5C;
 }
 
 
@@ -100,17 +100,22 @@ a.txt:hover{
 
 
 .vino h3{
-	  font-family: "Cormorant Garamond", serif;
-	  text-transform: uppercase;
-	  color: #E4AC5C;
-	 	text-align: center;
+	font-family: "Cormorant Garamond", serif;
+	text-transform: uppercase;
+	color: #E4AC5C;
+    text-align: center;
 }
 
 .vino p{
 	text-align: center;
 }
 
-
+.rv_home_txt{
+    margin-top: 400px;
+}
+#select{
+    margin-top: 100px;
+}
 /*RESPONSIVE CODE*/
 
 
@@ -202,12 +207,7 @@ a.txt:hover{
 
 /* ----------------- TERMINA SELECCIÓN ----------------*/
 
-/* ----------------- EMPIEZA CONTACTO ----------------*/
 
-
-
-
-/* ----------------- TERMINA CONTACTO ----------------*/
 
 /* ----------------- EMPIEZA FOOTER ----------------*/
 
@@ -222,12 +222,7 @@ a.txt:hover{
 
 @media (min-width: 580px) /*TABLET*/{
 
-/* ----------------- EMPIEZA HEADER ----------------*/
 
-
-
-
-/* ----------------- TERMINA HEADER ----------------*/
 
 /* --------- ACÁ EMPIEZA EL MAIN -------------------*/
 
@@ -319,12 +314,7 @@ a.txt:hover{
 
 /* ----------------- TERMINA SELECCIÓN ----------------*/
 
-/* ----------------- EMPIEZA CONTACTO ----------------*/
 
-
-
-
-/* ----------------- TERMINA CONTACTO ----------------*/
 
 /* ----------------- EMPIEZA FOOTER ----------------*/
 
@@ -340,12 +330,7 @@ a.txt:hover{
 
 @media (min-width: 800px) /*TABLET ACOSTADA*/{
 
-/* ----------------- EMPIEZA HEADER ----------------*/
 
-
-
-
-/* ----------------- TERMINA HEADER ----------------*/
 
 /* --------- ACÁ EMPIEZA EL MAIN -------------------*/
 
@@ -441,12 +426,7 @@ a.txt:hover{
 
 /* ----------------- TERMINA SELECCIÓN ----------------*/
 
-/* ----------------- EMPIEZA CONTACTO ----------------*/
 
-
-
-
-/* ----------------- TERMINA CONTACTO ----------------*/
 
 /* ----------------- EMPIEZA FOOTER ----------------*/
 
